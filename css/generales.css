@@ -1,0 +1,54 @@
+@media (min-width: 1200px ){
+		
+			*{
+				margin: 0px;
+				padding: 0px;
+				
+			}
+
+			/*Estilos para los enlaces*/
+			a{
+				text-decoration-line: none;
+				color: black;
+			}
+
+
+			/*Titulos */
+			h1{
+				color: black;
+				text-decoration: underline;
+				font-size: 1.5em;
+			}
+	
+
+			/* Linea horizontal estilos */
+			hr{
+				height: 120px; 
+				
+				background-color: rgb(255,255,255,0.5);
+		
+			}
+
+			.inicio_articulo1 .inicio_articulo2 .inicio_articulo3{
+
+				height: 250px;
+				width: 450px;
+				border-radius:5px; 
+				box-shadow: 0px 0px 20px 2px;
+
+			}
+
+			img {
+
+				height: 250px;
+				width: 450px;
+				border-radius:5px; 
+				box-shadow: 0px 0px 8px 5px;
+
+			}
+
+
+		}
+
+			
+		

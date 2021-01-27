@@ -1,0 +1,26 @@
+		@media (max-width: 1200px ){
+
+			
+			/*Estilos para los enlaces*/
+			a{
+				text-decoration-line: none;
+				color: black;
+			}
+
+
+			/*Titulos */
+			h1{
+				color: black;
+				text-decoration: underline;
+				font-size: 1.3em;
+			}
+	
+
+			/* Linea horizontal estilos */
+			hr{
+				height: 50px; 
+				
+				background-color: rgb(255,255,255,0.5);
+			}
+
+		}

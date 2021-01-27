@@ -1,0 +1,49 @@
+
+
+			/*FOOTER*/
+			/*centrar todo el footer en el medio y en columna*/
+			
+		@media (max-width: 1200px ){
+			footer{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background-color: #333333;
+				height:300px;
+			}
+
+			/*Tamaño y centrado de logo del footer. */
+			#logo_footer{
+				display: flex;
+				justify-content: center;
+				
+			}
+
+			#tamaño_logo_footer{
+				height: 70px;
+				width: 130px;
+				border-radius: 20px;
+			}
+
+
+
+			/*Estilos para poner las foto de redes en el medio del bloque*/
+			#fotoredes{
+				display: flex;
+				justify-content: center;
+				
+			}
+			/*Tamaño de los logos del footer */
+			.tamaño_foto_redes{
+				width: 50px;
+				height: 50px;
+
+			}
+
+			/*Texto del footer para centrarlo */
+			.creador{
+				display: flex;
+				justify-content: center;
+				color: gray;
+			}
+		}

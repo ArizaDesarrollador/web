@@ -1,0 +1,188 @@
+
+			
+			@media (min-width: 1200px ){
+			
+				.imagen_cv{
+					width: 800px;
+					height: 920px;
+								}
+
+
+			/*Tamaño por defecto de la simagenes */
+			
+			/* esconder el menu de diseño movil */
+			.menu{
+				display: none;
+			}
+			
+
+			
+
+			/*Titulos */
+			h1{
+				color: black;
+				text-decoration: underline;
+				font-size: 1.5em;
+			}
+
+			
+			/*Los articulos es la 1º y 2º  secciones de inicio*/
+			.inicio_articulo1{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				margin-bottom: 5%;
+				margin-top: 2%;
+
+			}
+
+			.inicio_articulo2{
+				margin-top: 2%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				margin-bottom: 5%;
+
+			}
+
+			.inicio_articulo3{
+				margin-top: 2%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: 5%;
+			}
+
+			/* Bloque que pertenece al articulo 1 */
+			.inicio_bloque1{
+				margin-top: 3%;
+				position: relative;
+				background-color: black;
+				height: 270px;
+				width:420px;
+				border-radius: 5px;
+				box-shadow: 0px 0px 8px 5px;
+				
+			}
+			/* Bloque que pertenece al articulo 1 */
+			.inicio_bloque1hijo{
+				position: absolute;
+				top: 40px;
+				left: 30px;
+				
+				
+				
+			}
+			/* Bloque que pertenece al articulo 2 */
+			.inicio_bloque2{
+				margin-top: 3%;
+				position: relative;
+				background-color: black;
+				height: 270px;
+				width:420px;
+				border-radius: 5px;
+				box-shadow: 0px 0px 8px 5px;
+				
+			}
+			/* Bloque que pertenece al articulo 2 */
+			.inicio_bloque2hijo{
+				position: absolute;
+				top: 40px;
+				right: 20px;
+			
+				
+			}
+
+			.inicio_bloque3{
+				margin-top: 3%;
+				position: relative;
+				background-color: black;
+				height: 270px;
+				width:420px;
+				border-radius: 5px;
+				box-shadow: 0px 0px 8px 5px;
+			}
+
+			.inicio_bloque3hijo{
+				position: absolute;
+				top: 40px;
+				right: 20px;
+				
+			}
+
+			
+		
+
+			/* Este es los estilos de los textos de inicio en fila de dos */
+			.inicio_texto_row{
+				width: 35%;
+				font-size: 1.5em;
+				text-align: justify;
+			}
+			/* Este es los estilos de los textos de inicio en columna */
+			.inicio_texto_column{
+				margin-top: 60px;
+				width: 55%;
+				font-size: 1.5em;
+				text-align: justify;
+			}
+
+		
+
+			/*FOOTER*/
+			/*centrar todo el footer en el medio y en columna*/
+			
+			footer{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background-color: #333333;
+				height:300px;
+			}
+
+			/*Tamaño y centrado de logo del footer. */
+			.logo_footer{
+				display: flex;
+				justify-content: center;
+				
+			}
+
+			footer .tamaño_logo_footer{
+				height: 125px;
+				width: 150px;
+				box-shadow: 0px 0px 0px 0px;
+			}
+
+
+
+			/*Estilos para poner las foto de redes en el medio del bloque*/
+			.fotoredes{
+				display: flex;
+				justify-content: center;
+				
+			}
+			/*Tamaño de los logos del footer */
+			.tamaño_foto_redes{
+				width: 50px;
+				height: 50px;
+				box-shadow: 0px 0px 0px 0px;
+			}
+
+			/*Texto del footer para centrarlo */
+			.creador{
+				display: flex;
+				justify-content: center;
+				color: gray;
+				font-size: 1.5em;
+			}
+
+			.barra{
+				display: none;
+			}
+
+
+			.img_movil{
+				display: none;
+			}
+}
+		

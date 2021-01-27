@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arz Developer</title>
+
+		<meta http-equiv="Expires" content="0">
+ 
+<meta http-equiv="Last-Modified" content="0">
+ 
+<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+ 
+<meta http-equiv="Pragma" content="no-cache">
+
+		<meta name="title" content="Jesús Ariza || Desarrollador de aplicaciones">
+		<meta charset="utf-8">
+	    <meta name="description" content="Hola, Soy Jesús Ariza y soy Desarrollador de aplicaciones. Aquí encontraras información sobre mi">
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/navegacion.css">
+		<link rel="stylesheet" type="text/css" href="css/inicio.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/generales.css">
+		<link rel="stylesheet" type="text/css" href="css/movil/navegacion_movil.css">
+		<link rel="stylesheet" type="text/css" href="css/movil/inicio_movil.css">
+	
+		<link rel="stylesheet" type="text/css" href="css/movil/footer_movil.css">
+		<link rel="stylesheet" type="text/css" href="css/movil/generales_movil.css">
+		<script type="text/javascript" src="js/js.js" ></script> 
+		
+		<style type="text/css">
+			
+		/*Fuente externa para font family */
+			@font-face {
+				font-family:"confortaa";
+				src: url("fuentes/cr.ttf");
+				
+			}
+
+			@font-face{
+				font-family:"marker";
+				src: url("fuentes/marker.ttf");
+			}
+			
+			/* Estilos por defecto en toda la pagina html */	
+			body{
+				font-size: 12px;		
+				color: black;
+				background-color: #F9CABD;
+				font-family: confortaa;
+			}
+
+		
+		</style>
+			
+	</head>
+	
+	<!-- DOCUMENTO HTML -->
+
+	<body>
+
+		<!-- CABEZERA -->
+		<div class="cabecera">
+		 <img src="imagenes/navegacion/cabecera.jpg">
+		</div>
+		
+			<div class="fondonav">	
+		<nav>
+			<img class="vectores" src="imagenes/vectores/inicio.png">
+			<a  href="index.html">Inicio</a>
+			<img class="vectores" src="imagenes/vectores/aprobado.png">
+			<a href="cv.html">Curriculum </a>
+			<img class="vectores" src="imagenes/vectores/instrucciones.png">
+			<a onclick="EnDesarrollo()" id="guias" href="">Guías PDF</a>
+			<img class="vectores" src="imagenes/vectores/proyecto.png">
+			<a onclick="EnDesarrollo()" id="proyectos" href="">Proyectos</a>
+		</nav>
+
+		</div>
+		<div id="mostrar">	
+		<nav class="menu" id="menu" onclick="todo()">
+
+			<img class="menu_cerrado" id="menu_cerrado" src="imagenes/navegacion/menu_cerrado.png">
+			<img class="menu_abierto" id="menu_abierto" src="imagenes/navegacion/menu_abierto.png">
+			
+		</nav>
+
+		<!-- BARRA DE NAVEGACION DE MOVIL </!-->
+		<div class="barra" id="barra">
+			<a class="lista" href="index.html">Inicio </a>
+			<a class="lista" href="cv.html">Curriculum </a>
+			<a class="lista" onclick="EnDesarrollo()" id="guias" href="">Guías PDF</a>
+			<a class="lista" onclick="EnDesarrollo()" id="proyectos" href="">Proyectos</a>
+		</div>
+
+		
+
+		</div>
+		
+		
+
+
+		
+
+
+		<!-- Cuerpo-->
+		<!--  ARTÍCULO 1 DE LA PÁGINA DE INICIO (FOTO + TEXTO) -->
+		<div class="inicio_articulo1" id="art1">
+
+		<div class="inicio_bloque1">
+			<div class="inicio_bloque1hijo">
+				<img src="imagenes/inicio/who.jpg">
+			</div>
+		</div>
+
+		<!-- Codigo HTML para las fotos del MOVIL ( Son las mismas pero no tienen el efecto de los bloques, por eso se saca fuera)-->
+		<img class="img_movil" src="imagenes/inicio/who.jpg">
+		
+		<div class="inicio_texto_row">
+			<h1>Sobre mí</h1><br>
+			<p>Hola, soy Jesús Ariza y soy un apasionado en el mundo de la informática. Desde pequeño siempre estuve interesado en el mundo de la tecnología, de manera que en modo autodidacta, fui aprendiendo conocimientos a través de una gran herramienta que es internet, obteniendo los diferentes conceptos en el mundo del HW y el SW. <br> <br> Gracias a esto, me di cuenta de que quería dedicarme a ello, por tanto opté por la formación profesional, ya que esto me daría la oportunidad de aprender y demostrar en las prácticas todo lo que he ido aprendiendo a lo largo de todo este tiempo.<br> <br> Actualmente estoy estudiando Desarrollo de aplicaciones multiplataforma, aunque sigo formándome de manera autodidacta en otros ámbitos para seguir mejorando mi carrera profesional.</p>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<!--  ARTICULO 2 DE LA PÁGINA DE INICIO (TEXTO + FOTO)-->
+	<div class="inicio_articulo2" id="art2">
+		
+		<div class="inicio_texto_row">
+			<h1>¿Por qué he creado esta Web?</h1><br>
+			<p style="font-weight: bolder;">Esta Web ha sido desarrollada por los siguientes motivos:</p>
+			<br>
+			
+				<p>Poder mostrar mi curriculum y mi trayectoria profesional vía Web.</p><br>
+				<p>Poder compartir guías documentadas en formato PDF creadas por mí a lo largo de mi trayectoria profesional.</p><br>
+				<p>Esta web al estar diseñada de manera estática, y con lo que esto conlleva "Comenzarla completamente desde cero", me ayuda a poder ir implementando y probando todo los nuevos conceptos que voy aprendiendo y de esta manera, poder ir mejorando la Web con el tiempo.</p> <br>
+				<p>Motivación personal.</p>
+			
+		</div>
+
+			
+
+		<div class="inicio_bloque2">
+			<div class="inicio_bloque2hijo">
+				<img src="imagenes/inicio/web.png">
+			</div>
+		</div>
+
+		<!-- Codigo HTML para las fotos del MOVIL ( Son las mismas pero no tienen el efecto de los bloques, por eso se saca fuera)-->
+		<img class="img_movil" src="imagenes/inicio/web.png">
+
+	</div>
+
+	
+
+		<hr>
+
+	<!--  ARTICULO 3 DE LA PÁGINA DE INICIO (FOTO + TEXTO EN COLUMNA)-->
+	<div class="inicio_articulo3" id="art3">
+			
+		<div class="inicio_bloque3">
+			<div class="inicio_bloque3hijo">
+				<img src="imagenes/inicio/web2.jpg">
+			</div>
+		</div>
+		
+		<!-- Codigo HTML para las fotos del MOVIL ( Son las mismas pero no tienen el efecto de los bloques, por eso se saca fuera)-->
+		<img class="img_movil" src="imagenes/inicio/web2.jpg">
+
+		<div class="inicio_texto_column">
+			<h1>¿Por qué he optado por diseñar una web estática?</h1><br>
+		
+				<p>Como he comentado en uno de los motivos del artículo anterior, una página estática hay que construirla desde 0 y esto conlleva tener conocimientos de programación para poder desarrollarla, pero a su vez de esta manera mejoras en el ámbito del desarrollo.<br><br>
+
+				Por el contrario un Gestor de contenido (CMS) como  WordPress, no es necesario tener conocimientos de programación para poder administrar tu página web. Pero hay que tener claro, que si alguien es muy bueno en este software puede crear páginas webs muy profesionales como también si no tienes unos conocimientos no podrás obtener los resultados deseados. Todo lleva su tiempo, y la curva de aprendizaje dependerá del usuario.<br><br>
+				</p>
+				
+				<h3>Por ello hay que tener claro dos conceptos:</h3><br>
+					
+						<p>Si quieres una página web que no necesita almacenar nada en una base de datos y quieres una página web rápida y totalmente personalizable, entonces desarrolla una página web estática.</p><br>
+					
+
+					
+						<p>Pero si  necesitas usar una base de datos para poder guardar datos de los usuarios en tiendas o comercios online  y crear una página web rápida, entonces deberás optar por un CMS, ya que imaginaros crear una tienda de ropa y tener que hacer una página estática para cada artículo, sería una auténtica locura. </p>
+	
+		</div>
+		
+	</div>
+
+	
+	<!-- CONTENIDO DEL FOOTER -->  
+	<footer>
+		<div class="logo_footer" id="art4">
+			<img class="tamaño_logo_footer" src="imagenes/footer/logo_footer.png">
+		</div>
+
+		<div class="fotoredes">
+			<a href="https://www.linkedin.com/in/jesus-moises-ariza-valverde" target="_blank"><img class="tamaño_foto_redes" src="imagenes/footer/in.png"></a>
+			<a href="https://www.instagram.com/_jesusariza_/" target="_blank"><img  class="tamaño_foto_redes" src="imagenes/footer/ig.png"></a>
+			<a href="https://www.facebook.com/Arizafit/" target="_blank"><img  class="tamaño_foto_redes" src="imagenes/footer/fc.png"></a>
+		</div>
+
+		<div class="creador">
+			<p>©2021 ArzDeveloper Diseño web.</p>
+			
+		</div>
+
+		<div class="creador">
+			<p>Esta Web no está terminada y está en proceso de desarrollo.</p>
+		</div>
+	</footer>
+
+</div>
+		
+	</body>
+</html>

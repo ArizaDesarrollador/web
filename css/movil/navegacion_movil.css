@@ -1,0 +1,109 @@
+
+			/*Estilos para el navegador*/
+		@media (max-width: 1200px ){
+			
+			*{
+				padding: 0;
+				margin: 0;
+			}
+
+
+
+			li{
+				list-style-type: none;
+			}
+
+			.navegador{
+				
+
+			}
+
+			
+
+			.menu{
+				margin-top: 5%;
+				margin-left: 1%;
+				float: left;
+				width: 1%;
+				
+				
+				}
+
+				
+
+			.barra{
+				margin-top: 25%;
+				margin-left: 0%;
+				display: none;
+				float: left;
+				width: 230px;
+				height: 298px;
+				background-color:black;
+				color: white;
+				font-size: 2.5em;
+				font-family: confortaa;
+				font-weight: bolder;
+				padding-top: 10px;
+				border-radius: 5px;
+				
+
+				
+			}
+
+			.lista{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background-color: #F9CABD;
+				border-radius: 5px;
+				margin-left: 15px;
+				color: black;
+				box-shadow: 0px 5px 5px 1px	;
+				width: 80%;
+				margin-bottom:  50px;
+				text-align: center;
+
+				
+						
+			}
+
+			.barra_open{
+				display: block;
+
+				
+			}
+
+			.menu_abierto{
+				display: none;
+				height: 150px;
+				width: 150px;
+				
+			}
+
+			.menu_cerrado{
+				height: 150px;
+				width: 150px;
+				
+			}
+
+			.menu_abierto_activo{
+				display: block;
+				
+			}
+
+			.menu_cerrado_desactivado{
+				display: none;
+
+			}
+
+
+
+
+
+
+			
+
+
+
+}
+
